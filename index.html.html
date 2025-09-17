@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #secondCss3 {
+        color: green;
+        font-weight: 900;
+        font-size: 20px;
+    }
+</style>
+<SCript>
+    console.log("2-JS内嵌式引入");
+    a = confirm("2-JS内嵌式引入");
+
+</SCript>
+<script src="demo01.js"></script>
+
+<body>
+    <h1>我思故我在</h1>
+    <hr>
+    <h3>JS的三种引入方式</h3>
+    <input type="button" value="1-JS行内式引入" onclick="alert('1-JS行内式方式')">
+    <a href="javascript:alert('1-JS行内式方式');">1-JS行内式方式</a>
+    <hr>
+    <br>
+    <p id="secondCss3">内嵌式引入</p>
+    <p class="thirdCss3">内嵌式引入</p>
+    <a href="https://www.baidu.com">百度</a>
+    <audio
+        src="https://lv-sycdn.kuwo.cn/dcbfa29aa58dbbbb1daf1df0172b42a6/68caa9ee/resource/30106/trackmedia/M500004Z8Ihr0JIu5s.mp3?bitrate$128&format$mp3&source$&user$C_APK_guanwang_12609069939969033731&loginUid$"
+        controls="controls" loop="loop" preload="auto"></audio>
+    <video src="1.mp4" controls></video>
+</body>
+
+</html>
